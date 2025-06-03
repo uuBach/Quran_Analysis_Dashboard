@@ -9,11 +9,11 @@ The underlying data was structured around each word and verse, along with metada
 # Tools I Used
 To build this interactive Quranic dashboard, I leveraged a set of Excel-based tools and features:
 
--**Microsoft Excel:** The primary tool used for data structuring, analysis, and dashboard creation.
--**Pivot Tables:** Enabled efficient data summarization by Surah, word count, and ayah count.
--**Slicers:** Provided intuitive filtering by Surah size, place of revelation, and chronological order.
--**Charts:** Used bar and line charts to visually represent Surah lengths and word frequency trends.
--**Data Formatting & Conditional Logic:** Applied sorting, filtering, and logical categorization (e.g. “Short,” “Medium,” “Long”) to enhance interactivity and readability.
+- **Microsoft Excel:** The primary tool used for data structuring, analysis, and dashboard creation.
+- **Pivot Tables:** Enabled efficient data summarization by Surah, word count, and ayah count.
+- **Slicers:** Provided intuitive filtering by Surah size, place of revelation, and chronological order.
+- **Charts:** Used bar and line charts to visually represent Surah lengths and word frequency trends.
+- **Data Formatting & Conditional Logic:** Applied sorting, filtering, and logical categorization (e.g. “Short,” “Medium,” “Long”) to enhance interactivity and readability.
 
 # The Analysis
 This Excel dashboard was built to explore structural patterns and word frequency across the Qur'an. Using two main data tables (Surahs and Words), I created dynamic visualizations powered by pivot tables, slicers, and formulas. Below is a breakdown of the main analytical components in the dashboard:
@@ -42,20 +42,20 @@ This function supports deeper exploration and user-driven analysis beyond preset
 
 ## 5. Filtering with Slicers
 The dashboard is equipped with slicers that control all visual components simultaneously:
--Surah size by ayah count
--Place of revelation
--Surah size by word count
--Chronological order
--This interactivity empowers flexible analysis tailored to any criteria combination.
+- Surah size by ayah count
+- Place of revelation
+- Surah size by word count
+- Chronological order
+- This interactivity empowers flexible analysis tailored to any criteria combination.
 ![Filtering with Slicers](assets/4.png)
 
 # What I Learned
 Working on this Quran Analysis Dashboard project deepened my data analysis skills within Excel and helped me explore structured religious data in new ways. Here are some key takeaways:
 
--**🔁 Pivot Table Mastery:** Strengthened my ability to organize, filter, and summarize large datasets through dynamic pivot tables.
--**📊 Data Visualization:** Built interactive bar charts that respond to slicers — allowing for multi-dimensional exploration of surah length, word counts, and frequency.
--**🔎 Analytical Thinking:** Practiced identifying meaningful questions and translating them into measurable Excel logic.
--**🎯 Interactive Dashboards:** Developed a user-friendly, filterable dashboard with slicers for revelation order, surah type, and size — enhancing interpretability.
+- **🔁 Pivot Table Mastery:** Strengthened my ability to organize, filter, and summarize large datasets through dynamic pivot tables.
+- **📊 Data Visualization:** Built interactive bar charts that respond to slicers — allowing for multi-dimensional exploration of surah length, word counts, and frequency.
+- **🔎 Analytical Thinking:** Practiced identifying meaningful questions and translating them into measurable Excel logic.
+- **🎯 Interactive Dashboards:** Developed a user-friendly, filterable dashboard with slicers for revelation order, surah type, and size — enhancing interpretability.
 
 # Conclusion
 This project was an in-depth exploration of the Qur’an through structured Excel analysis — not just to visualize scripture data, but to develop stronger data handling and dashboarding skills. From tracking surah length and word counts to identifying frequent terms and building interactive visuals, the dashboard revealed how thoughtful data design can enhance our understanding of complex texts.
