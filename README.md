@@ -20,22 +20,23 @@ This Excel dashboard was built to explore structural patterns and word frequency
 
 ## 1. Ayah Count by Chronological Order
 To understand the distribution of surahs over time, I used a pivot table to sum ayah counts for each surah and plotted them in chronological order. A slicer allows toggling between Meccan and Medinan revelations.
+![Ayah Count by Chronological Order](assets/1.png)
 
 ## 2. Word Count by Surah Number
 I plotted the number of words per surah using a second pivot chart, based on canonical surah order (1 to 114).
-
+![Word Count by Surah Number](assets/2.png)
 ### Insight:
 There is a clear downward trend in surah length as the canonical order progresses, with the earliest surahs being the longest.
 
 ## 3. Most Frequent Words
 I used a pivot table to rank word frequency and applied slicers for filtering by surah length, revelation type, and order. This allows dynamic exploration of vocabulary usage.
-
+![Most Frequent Words](assets/3.png)
 ### Insight:
 The most frequent word is the Arabic preposition "في" (in), indicating the frequent use of spatial or conceptual references.
 
 ## 4. Search a Word
 Using XLOOKUP, users can input a word and instantly retrieve its total count across the English translation of the Qur’an — enabling quick frequency checks without sifting through data manually.
-
+![Search a Word](assets/5.png)
 ### Insight:
 This function supports deeper exploration and user-driven analysis beyond preset visuals.
 
@@ -46,3 +47,4 @@ The dashboard is equipped with slicers that control all visual components simult
 -Surah size by word count
 -Chronological order
 -This interactivity empowers flexible analysis tailored to any criteria combination.
+![Filtering with Slicers](assets/4.png)
